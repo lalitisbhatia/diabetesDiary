@@ -2,6 +2,7 @@ var mongoose = require('mongoose');
 var moment = require('moment');
 var User = require('../app/models/user.js');
 var Feeling = require('../app/models/feelingEntry.js');
+var fixtures = require("../test/fixtures/testFixtures.js");
 
 var should = require('should');
 var request = require('supertest');
@@ -15,7 +16,7 @@ describe('create update delete feeling', function(){
   dt.setMinutes(0);
   dt.setSeconds(0);
   dt.setMilliseconds(0);
-  var newUser = {firstName:'fname',lastName:'lname',email:"myemail007@myemail.com",password:"test1234"};
+  var newUser = fixtures.user;
   var newFeeling = {userId:'', feelingDate:dt,feelingTimeOfDay:'morning',feelingValue:'great'};
   var badFeeling = {userId:'', feelingDate:dt,feelingTimeOfDay:'morning',feelingValue:'not great'};
   function loginUser(user) {
@@ -59,7 +60,7 @@ describe('create update delete feeling', function(){
 
     //Now enter feelings for the user
     it('should enter a value for feeling',function(done){
-      console.log('############  ',newFeeling);
+      //console.log('############  ',newFeeling);
       newFeeling.userId = newUser._id;
       agent
         .post('/feeling')
@@ -119,7 +120,7 @@ describe('create update delete feeling', function(){
           if(err){
             throw err;
           }
-          console.log('******** feeling entry found',resp.body);
+          //console.log('******** feeling entry found',resp.body);
           resp.body.should.have.property('fe');
           done();
         });
@@ -134,7 +135,7 @@ describe('create update delete feeling', function(){
           if(err){
             throw err;
           }
-          console.log('******** feeling history found',resp.body);
+          //console.log('******** feeling history found',resp.body);
           resp.body.should.have.property('feHist');
           done();
         });

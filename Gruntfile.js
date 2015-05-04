@@ -47,6 +47,14 @@ module.exports = function(grunt){
             dist: 'dist'
         },
 
+      shell: {
+        tests: {
+          command: 'sh ./runtests.sh'
+        },
+        devenv:{
+          command: 'sh ./rundev.sh'
+        }
+      },
         // Empties folders to start fresh
         clean: {
             dist: {
@@ -126,11 +134,15 @@ module.exports = function(grunt){
         },
 
         mochaTest:{
-            options: {
-                NODE_ENV:'test'
+            tearDown:{
+              src:['server/test/fixtures/teardown.js']
             },
-            src: ['server/test/*.js']
+            test:{
+              src: ['server/test/*.js']
+            }
+
         },
+
         "file-creator": {//use this to generate the authConfig file at runtime
             "development": {
                 "server/config/authConfig.json": function(fs, fd, done) {
@@ -258,16 +270,22 @@ module.exports = function(grunt){
 
         return grunt.task.run([
             //'file-creator:' + target ,
-            'mochaTest',
             'express:dev' ,
             'open',
             'watch'
         ])
     });
   grunt.registerTask('mochatests',function(target){
+    return grunt.task.run([
+      'shell:tests'
+    ])
+  });
+
+  grunt.registerTask('rundev',function(target){
 
     return grunt.task.run([
-      'mochaTest'
+      'shell:tests',
+      'shell:devenv'
     ])
   });
 

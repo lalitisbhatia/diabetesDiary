@@ -1,5 +1,6 @@
 var User = require('../app/models/user.js');
 //var login = require('../test/loginHelper.js');
+var fixtures = require("../test/fixtures/testFixtures.js");
 
 var should = require('should');
 
@@ -12,12 +13,12 @@ var mongoose = require('mongoose');
 
 describe('Profile routes',function(){
 
-    var dob = new Date('12/03/1983');
-    var newUser = {firstName:'fname',lastName:'lname',email:"profile@myemail.com",password:"test1234"};
-    var profile = {dateOfBirth: dob, gender: 'M',heightFt: '5',heightIn: '7', mobileNumber : "1211211212"};
-    newUser.profile = profile;
-    var dbUser;
-    var newPassword = "Test4321";
+  var dob = new Date('12/03/1983');
+  var newUser = fixtures.user;
+  var profile = {dateOfBirth: dob, gender: 'M',heightFt: '5',heightIn: '7', mobileNumber : "1211211212"};
+  newUser.profile = profile;
+  var dbUser;
+  var newPassword = "Test4321";
 
   function loginUser(user) {
     return function(done) {
@@ -43,7 +44,7 @@ describe('Profile routes',function(){
             .send()
             .expect(200)
             .end(function(err,res){
-                console.log(res.body);
+                //console.log(res.body);
                 done();
             })
     });
@@ -94,7 +95,7 @@ describe('Profile routes',function(){
                     //console.log(res.body.user);
                     res.body.should.have.property('user');
                     var usrProfile = res.body.user.profile;
-                    console.log('getting user profile ',usrProfile);
+                    //console.log('getting user profile ',usrProfile);
 
                     usrProfile.gender.should.equal(profile.gender);
                     usrProfile.dateOfBirth.should.equal(profile.dateOfBirth.toISOString());

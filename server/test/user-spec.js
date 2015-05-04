@@ -1,4 +1,5 @@
 var User = require('../app/models/user.js');
+var fixtures = require("../test/fixtures/testFixtures.js");
 
 var should = require('should');
 var request = require('supertest');
@@ -8,12 +9,12 @@ var mongoose = require('mongoose');
 
 describe('Signup and Login routes',function(){
     //var url="http://localhost:3000/";
-    var newUser = {firstName:'fname',lastName:'lname',email:"myemail007@myemail.com",password:"test1234"};
-    var badUser = {email:"mye@myemail.com",password:"test1"};
-    var dbUser;
-    var resetToken;
-    var badResetToken;
-    var newPassword = "Test4321";
+  var newUser = fixtures.user;
+  var badUser = fixtures.badUser;
+  var dbUser;
+  var resetToken;
+  var badResetToken;
+  var newPassword = "Test4321";
 
     //make sure that the test user is deleted in case it didnt get removed from previous run
     before(function(done){
@@ -22,7 +23,7 @@ describe('Signup and Login routes',function(){
                 .send()
                 .expect(200)
                 .end(function(err,res){
-                    console.log(res.body);
+                    //console.log(res.body);
                     done();
                 })
     });

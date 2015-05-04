@@ -6,6 +6,7 @@ var cat = require('../app/models/category.js');
 var Measure = mongoose.model('Measure',meas.MeasureSchema);
 var Category = mongoose.model('Category',cat.CategorySchema);
 
+var fixtures = require("../test/fixtures/testFixtures.js");
 var FoodEntry = require('../app/models/foodEntry.js');
 
 var should = require('should');
@@ -30,7 +31,8 @@ describe('create update delete food entry', function(){
   //Update food entry
   //delete food entry
 
-  var newUser = {firstName:'fname',lastName:'lname',email:"myemail007@myemail.com",password:"test1234"};
+  //console.log("************ Fixtures ",fixtures.user);
+  var newUser = fixtures.user;
 
   var measures = [{measureId: 1, measureName: 'test measure2'}, {measureId: 2, measureName: 'test measure2'}];
   var categories = [{categoryId: 1, categoryType: 'CatType 1', categoryName: 'category 1'}, {categoryId: 2, categoryType: 'CatType 2', categoryName: 'category 2'}];
@@ -70,7 +72,7 @@ describe('create update delete food entry', function(){
           if(err){
             throw err;
           }
-          console.log(res.body);
+          //console.log(res.body);
           newUserId=res.body.user._id;
           newUser._id = newUserId;
           //res.should.have.status(200);
@@ -141,7 +143,7 @@ describe('create update delete food entry', function(){
           if(err){
             throw err;
           }
-          console.log(resp.body);
+          //console.log(resp.body);
           done()
         })
     });
@@ -157,14 +159,32 @@ describe('create update delete food entry', function(){
           if(err){
             throw err;
           }
+          //console.log('***** ',resp.body.foodEntry);
           resp.body.foodEntry.entryTimeOfDay.should.equal('afternoon');
           resp.body.foodEntry.entryAmount.should.equal(4);
-
+          done();
         })
     });
 
+    it('should delete a food entry',function(done){
+      agent
+        .delete('/foodEntry/'+ foodEntry._id)
+        .send(foodEntry)
+        .expect(200)
+        .end(function(err,resp){
+          if(err){
+            throw err;
+          }
+          //console.log(resp.body);
+          done()
+
+        })
+
+    });
+
+
     it('should delete user',function(done){
-      console.log(newUser);
+      //console.log(newUser);
       agent
         .delete('/user/' + newUser._id)
         .expect(200)

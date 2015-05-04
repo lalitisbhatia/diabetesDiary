@@ -7,7 +7,7 @@ module.exports = function(app){
 
 
   //*************************************************//
-  //********* REQUEST HANDLERS *********************//
+  //********* ROUTE HANDLERS *********************//
   //*************************************************//
 
   function createUpdateFeeling(req,res){
