@@ -52,7 +52,7 @@ nav {
   top: 0;
   width: 14em;
   z-index: 2000;
-  
+
   transition: left 0.3s ease-in-out 0s;
   -webkit-transition: left 0.3s ease-in-out 0s;
   -moz-transition: left 0.3s ease-in-out 0s;

@@ -1,0 +1,39 @@
+nav
+  ul.list-unstyled.main-menu
+    li.text-left
+      a#nav-close(href='#')
+        b X
+    li
+      a(class="navLink" data-toggle="collapse" data-target=".navbar-collapse" id="home" ui-sref="home") Home
+        span.icon
+    li
+      a(class="navLink" data-toggle="collapse" data-target=".navbar-collapse" href='#about') About
+        span.icon
+    li
+      a(class="navLink" data-toggle="collapse" data-target=".navbar-collapse" id='gallery') Gallery
+        span.icon
+    li
+      a(href="") Social
+      ul.list-unstyled
+        li.sub-nav
+          a(class="navLink" data-toggle="collapse" data-target=".navbar-collapse" id="" ui-sref='profile') Facebook
+            span.icon
+        li.sub-nav
+          a(class="navLink" data-toggle="collapse" data-target=".navbar-collapse" id="" ui-sref='profile.assm') Twitter
+            span.icon
+        li.sub-nav
+          a(class="navLink" data-toggle="collapse" data-target=".navbar-collapse" id="" ui-sref='profile.other') MySpace
+            span.icon
+    li
+      a(class="navLink" data-toggle="collapse" data-target=".navbar-collapse" id="login" ui-sref="login" ) Login
+        span.icon
+    li
+      a(class="navLink" data-toggle="collapse" data-target=".navbar-collapse" id="signup" ui-sref='signup') Signup
+        span.icon
+.navbar.navbar-inverse.navbar-fixed-top
+  // Include your brand here
+  .navbar-header.pull-right
+    a#nav-expander.nav-expander.fixed
+      |   
+      i.fa.fa-bars.fa-lg.white
+  a.navbar-brand(href='#') Fun Project

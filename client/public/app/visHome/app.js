@@ -9,7 +9,7 @@ visHome.config(['$stateProvider','$routeProvider',function($stateProvider,$route
         // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
             url: '/',
-            templateUrl: '../partials/vis/login'
+            templateUrl: '../partials/vis/home'
         })
 
         // nested list with custom controller

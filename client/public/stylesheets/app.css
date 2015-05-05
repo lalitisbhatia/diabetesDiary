@@ -45,9 +45,7 @@ body {
     }
 }
 @media (max-width:768px) {
-    #top{
-        display: none;
-    }
+
     .navbar-nav>li{
         display: inline-block;
         padding-bottom: 30px;
@@ -82,7 +80,8 @@ body {
 }
 .title-row{
     position: relative;
-    min-height: 300px;
+    min-height: 30
+    margin-top: 20px;;
 }
 .title-image{
     position: absolute;
