@@ -18,16 +18,18 @@ subsApp.factory('profileService',function($http,$log,$rootScope){
                 })
         },
         updateProfile : function(profile){
-            return $http({
+          console.log('calling update',profile);
+             return $http({
                 method : 'POST',
                 url : '/profile',
                 data : profile
-            })
-                .then(function(response){
-                    return response.data;
-                })
+             }).then(function(response){
+               console.log("response - ",response);
+               return response.data;
+             })
+
         }
-    }
+    };
 
     return profileService
-})
+});

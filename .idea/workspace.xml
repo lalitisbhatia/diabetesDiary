@@ -2,23 +2,146 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ad46b56-dd5b-4760-ac8a-bce0f357ba71" name="Default" comment="Created models for food,">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/images/ChandiniChowk_020.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/images/ChandiniChowk_022.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/images/ChandiniChowk_032.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/images/ChandiniChowk_037.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/images/ChandiniChowk_049.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/images/ChandiniChowk_050.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/images/afternoon1.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/views/partials/vis/home.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/views/partials/vis/navVis2.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/images/afternoon3_Fotor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/images/insulinBG.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/images/morning2_Fotor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/app/controllers/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/app/subsApp/services/diabetesService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/app/controllers/diary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/app/services/diary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/app/models/diaryEntry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/app/controllers/profile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resetData.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/app/visHome/visHome.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/NodeAuthentication.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/app/subsApp/controllers/homeTopDefController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/ChandiniChowk020.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/ChandiniChowk022.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/ChandiniChowk032.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/ChandiniChowk037.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/ChandiniChowk049.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/ChandiniChowk050.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/ChandiniChowk_020.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/ChandiniChowk_022.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/ChandiniChowk_032.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/ChandiniChowk_037.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/ChandiniChowk_049.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/ChandiniChowk_050.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/MCG_main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/SurajKund.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/afternoon3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/afternoon4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/afternoon5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/afternoon6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/afternoon_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/evening1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/evening2_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/evening3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/evening4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/evening5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/evening6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/morning1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/morning2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/morning3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/morning4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/morning5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/morning6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/pic1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/pic2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/pic3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/pic4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/pic5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/public/images/pic6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/app/models/exercise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/app/models/feelingEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/app/models/food.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/app/models/foodEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/app/models/meal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/app/models/measure.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/app/models/tags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/app/routes/feelingApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/app/routes/foodApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/app/routes/foodEntryApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/config/auth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/test/feeling-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/test/fixtures/teardown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/test/fixtures/testFixtures.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/test/food-entry-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/test/food-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/test/loginHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/test/profile-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/test/test-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/test/user-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/indexSubs.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/index_.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/layoutReset.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/layoutSubs.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/layoutVis.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/login_old.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/diary/activityEntry.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/diary/addMore.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/diary/diary.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/diary/foodEntry.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/feeling/feelingFull.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/feeling/feelingGreat.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/feeling/feelingTabs.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/feeling/feelingTired.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/home.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/homeDone.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/homeTopDef.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/homeTopDone.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/navBot.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/navSubs.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/navSubs2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/profile/profile.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/profile/profileAssm.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/profile/profileForm.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/profile/profileOther.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/profile/profileTabs.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/social/social.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/social/socialHome.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/wellnessNews/wellness.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/subs/wellnessNews/wellnessHome.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/vis/aboutBrief.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/vis/forgot.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/vis/home.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/vis/localLogin.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/vis/login.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/vis/navVis.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/vis/navVis2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/vis/providerLogin.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/vis/reset.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/vis/signup.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/vis/signupBot.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/partials/vis/signupForm.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/profile.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/reset.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/signup_old.jade" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/public/images/test.txt" afterPath="$PROJECT_DIR$/client/public/app/subsApp/controllers/diabetesController.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/views/error.jade" afterPath="$PROJECT_DIR$/client/public/app/subsApp/controllers/diabetesDiaryController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app/routes/adminRoutes.js" afterPath="$PROJECT_DIR$/server/app/routes/adminRoutes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/env/all.js" afterPath="$PROJECT_DIR$/server/config/env/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app/routes/apiRoutes.js" afterPath="$PROJECT_DIR$/server/app/routes/apiRoutes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/stylesheets/app.css" afterPath="$PROJECT_DIR$/client/public/stylesheets/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/app/subsApp/app.js" afterPath="$PROJECT_DIR$/client/public/app/subsApp/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/app/visHome/app.js" afterPath="$PROJECT_DIR$/client/public/app/visHome/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app/models/exercise.js" afterPath="$PROJECT_DIR$/server/app/models/exercise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/views/layoutVis.jade" afterPath="$PROJECT_DIR$/server/views/layoutVis.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/views/partials/vis/login.jade" afterPath="$PROJECT_DIR$/server/views/partials/vis/login.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/stylesheets/nav.css" afterPath="$PROJECT_DIR$/client/public/stylesheets/nav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/views/partials/subs/navSubs.jade" afterPath="$PROJECT_DIR$/server/views/partials/subs/navSubs.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app/models/tags.js" afterPath="$PROJECT_DIR$/server/app/models/tags.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app.js" afterPath="$PROJECT_DIR$/server/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/database.js" afterPath="$PROJECT_DIR$/server/config/database.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/env/development.js" afterPath="$PROJECT_DIR$/server/config/env/development.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/app/subsApp/controllers/homeController.js" afterPath="$PROJECT_DIR$/client/public/app/subsApp/controllers/homeController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/passport.js" afterPath="$PROJECT_DIR$/server/config/passport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/env/production.js" afterPath="$PROJECT_DIR$/server/config/env/production.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/app/subsApp/controllers/profileController.js" afterPath="$PROJECT_DIR$/client/public/app/subsApp/controllers/profileController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/app/subsApp/services/profileService.js" afterPath="$PROJECT_DIR$/client/public/app/subsApp/services/profileService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/app/visHome/controllers/signupController.js" afterPath="$PROJECT_DIR$/client/public/app/visHome/controllers/signupController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app/routes/uiRoutes.js" afterPath="$PROJECT_DIR$/server/app/routes/uiRoutes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app/models/user.js" afterPath="$PROJECT_DIR$/server/app/models/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/app/visHome/controllers/visHomeController.js" afterPath="$PROJECT_DIR$/client/public/app/visHome/controllers/visHomeController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="d6a9b1ea-293c-4585-be2d-01cceeffa3bd" name="Failed commit: Default" comment="•&#9;See a background image appropriate to the time of day." />
@@ -44,41 +167,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layoutVis.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/views/layoutVis.jade">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.52" vertical-offset="96" max-vertical-offset="688">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.3686636" vertical-offset="1151" max-vertical-offset="2147">
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/views/partials/vis/home.jade">
+      <file leaf-file-name="uiRoutes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app/routes/uiRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="160">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adminRoutes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app/routes/adminRoutes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1273">
+              <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diary.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app/services/diary.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diabetesDiaryController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/public/app/subsApp/controllers/diabetesDiaryController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/public/stylesheets/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21719457" vertical-offset="1232" max-vertical-offset="10592">
-              <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+            <state vertical-scroll-proportion="-15.37037" vertical-offset="13949" max-vertical-offset="14497">
+              <caret line="756" column="22" selection-start-line="756" selection-start-column="22" selection-end-line="756" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/views/index_.jade">
+      <file leaf-file-name="diaryEntry.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app/models/diaryEntry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2" vertical-offset="0" max-vertical-offset="1120">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="722">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -93,57 +246,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/test/tags-spec.js" />
-        <option value="$PROJECT_DIR$/server/app/models/tags.js" />
-        <option value="$PROJECT_DIR$/server/config/env/test.js" />
-        <option value="$PROJECT_DIR$/server/app/models/measure.js" />
-        <option value="$PROJECT_DIR$/server/app/models/exercise.js" />
-        <option value="$PROJECT_DIR$/server/app/models/category.js" />
         <option value="$PROJECT_DIR$/server/app/models/food.js" />
-        <option value="$PROJECT_DIR$/server/app/models/dailyFeeling.js" />
-        <option value="$PROJECT_DIR$/server/app/routes/foodApi.js" />
-        <option value="$PROJECT_DIR$/server/app/routes/apiRoutes.js" />
-        <option value="$PROJECT_DIR$/server/app/routes/adminRoutes.js" />
-        <option value="$PROJECT_DIR$/server/views/partials/vis/providerLogin.jade" />
-        <option value="$PROJECT_DIR$/server/views/partials/subs/homeTopDef.jade" />
-        <option value="$PROJECT_DIR$/server/views/partials/subs/social/social.jade" />
-        <option value="$PROJECT_DIR$/server/views/partials/subs/social/socialHome.jade" />
-        <option value="$PROJECT_DIR$/server/views/partials/subs/wellnessNews/wellnessHome.jade" />
-        <option value="$PROJECT_DIR$/server/app/models/feelingEntry.js" />
-        <option value="$PROJECT_DIR$/client/public/app/common/services/utilitySvcs.js" />
-        <option value="$PROJECT_DIR$/client/public/app/subsApp/services/feelingService.js" />
+        <option value="$PROJECT_DIR$/server/test/search-spec.js" />
+        <option value="$PROJECT_DIR$/client/public/app/visHome/test.js" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server/app/models/dictionary.js" />
+        <option value="$PROJECT_DIR$/server/test/dictionaory.js" />
+        <option value="$PROJECT_DIR$/server/config/env/development.js" />
+        <option value="$PROJECT_DIR$/server/views/partials/vis/login.jade" />
+        <option value="$PROJECT_DIR$/server/views/partials/vis/forgot.jade" />
+        <option value="$PROJECT_DIR$/client/public/app/visHome/controllers/visHomeController.js" />
+        <option value="$PROJECT_DIR$/server/views/partials/subs/diabetes/insulincalc.jade" />
+        <option value="$PROJECT_DIR$/server/app/routes/uiRoutes.js" />
         <option value="$PROJECT_DIR$/server/views/partials/subs/home.jade" />
         <option value="$PROJECT_DIR$/client/public/app/subsApp/controllers/homeController.js" />
-        <option value="$PROJECT_DIR$/client/public/app/subsApp/controllers/homeTopDefController.js" />
-        <option value="$PROJECT_DIR$/server/views/partials/subs/homeTopDone.jade" />
-        <option value="$PROJECT_DIR$/server/app/models/meal.js" />
-        <option value="$PROJECT_DIR$/server/app/models/foodEntry.js" />
-        <option value="$PROJECT_DIR$/server/test/food-spec.js" />
-        <option value="$PROJECT_DIR$/server/app/routes/feelingApi.js" />
-        <option value="$PROJECT_DIR$/server/app/routes/foodEntryApi.js" />
-        <option value="$PROJECT_DIR$/server/test/fixtures/testFixtures.json" />
-        <option value="$PROJECT_DIR$/server/test/fixtures/testFixtures.js" />
-        <option value="$PROJECT_DIR$/server/test/profile-spec.js" />
-        <option value="$PROJECT_DIR$/server/test/feeling-spec.js" />
-        <option value="$PROJECT_DIR$/server/test/food-entry-spec.js" />
-        <option value="$PROJECT_DIR$/runTeardown.sh" />
-        <option value="$PROJECT_DIR$/server/app.js" />
-        <option value="$PROJECT_DIR$/server/test/fixtures/teardown.js" />
-        <option value="$PROJECT_DIR$/runtests.sh" />
-        <option value="$PROJECT_DIR$/server/test/user-spec.js" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/rundev.sh" />
-        <option value="$PROJECT_DIR$/client/public/app/visHome/app.js" />
         <option value="$PROJECT_DIR$/server/views/partials/vis/home.jade" />
         <option value="$PROJECT_DIR$/server/views/index_.jade" />
-        <option value="$PROJECT_DIR$/server/views/partials/vis/login.jade" />
-        <option value="$PROJECT_DIR$/server/views/partials/vis/navVis2.jade" />
-        <option value="$PROJECT_DIR$/server/views/partials/vis/navVis.jade" />
         <option value="$PROJECT_DIR$/server/views/layoutVis.jade" />
+        <option value="$PROJECT_DIR$/client/public/app/visHome/app.js" />
+        <option value="$PROJECT_DIR$/server/views/partials/subs/navSubs2.jade" />
+        <option value="$PROJECT_DIR$/client/public/app/subsApp/controllers/profileController.js" />
+        <option value="$PROJECT_DIR$/server/app/routes/apiRoutes.js" />
+        <option value="$PROJECT_DIR$/server/app/controllers/home.js" />
+        <option value="$PROJECT_DIR$/server/app/controllers/profie.js" />
+        <option value="$PROJECT_DIR$/server/app/controllers/admin.js" />
+        <option value="$PROJECT_DIR$/client/public/app/subsApp/services/profileService.js" />
+        <option value="$PROJECT_DIR$/server/views/partials/subs/diabetes/diabetes.jade" />
+        <option value="$PROJECT_DIR$/server/config/passport.js" />
+        <option value="$PROJECT_DIR$/server/views/partials/vis/signupForm.jade" />
+        <option value="$PROJECT_DIR$/client/public/app/visHome/controllers/signupController.js" />
+        <option value="$PROJECT_DIR$/server/app/controllers/profile.js" />
+        <option value="$PROJECT_DIR$/server/views/partials/subs/diabetes/insulinCalcForm.jade" />
+        <option value="$PROJECT_DIR$/client/public/app/subsApp/app.js" />
+        <option value="$PROJECT_DIR$/server/views/partials/subs/diabetes/diaryForm.jade" />
+        <option value="$PROJECT_DIR$/server/views/indexSubs.jade" />
+        <option value="$PROJECT_DIR$/server/views/partials/subs/diabetes/insulinCalc.jade" />
+        <option value="$PROJECT_DIR$/server/views/partials/subs/diabetes/insulinDiary.jade" />
         <option value="$PROJECT_DIR$/server/views/layoutSubs.jade" />
-        <option value="$PROJECT_DIR$/server/views/partials/subs/navSubs.jade" />
-        <option value="$PROJECT_DIR$/client/public/stylesheets/nav.css" />
+        <option value="$PROJECT_DIR$/client/public/app/subsApp/controllers/diabetesController.js" />
+        <option value="$PROJECT_DIR$/server/app/models/user.js" />
+        <option value="$PROJECT_DIR$/server/config/env/all.js" />
+        <option value="$PROJECT_DIR$/server/app/models/diabetesDiary.js" />
+        <option value="$PROJECT_DIR$/server/app/services/diary.js" />
+        <option value="$PROJECT_DIR$/server/app/controllers/diary.js" />
+        <option value="$PROJECT_DIR$/server/app/routes/adminRoutes.js" />
+        <option value="$PROJECT_DIR$/client/public/app/subsApp/services/diabetesService.js" />
+        <option value="$PROJECT_DIR$/server/app/models/diaryEntry.js" />
+        <option value="$PROJECT_DIR$/server/views/partials/subs/diabetes/insulinDiaryForm.jade" />
         <option value="$PROJECT_DIR$/client/public/stylesheets/app.css" />
+        <option value="$PROJECT_DIR$/client/public/app/subsApp/controllers/diabetesDiaryController.js" />
+        <option value="$PROJECT_DIR$/server/app.js" />
       </list>
     </option>
   </component>
@@ -183,7 +336,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="808" />
+    <option name="height" value="817" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -208,173 +361,27 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
+              <option name="myItemId" value="DiabetesJournal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
+              <option name="myItemId" value="DiabetesJournal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="subs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeAuthentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="Diabetes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,45 +389,34 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/app/models" />
+      <recent name="$PROJECT_DIR$/server/config" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/client/public/font" />
       <recent name="$PROJECT_DIR$/client/public/stylesheets" />
-      <recent name="$PROJECT_DIR$/client/public/images" />
-      <recent name="$PROJECT_DIR$/client/test" />
-      <recent name="$PROJECT_DIR$/server/views/partials/subs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/client/public/app/visHome/controllers" />
       <recent name="$PROJECT_DIR$/server/views/partials/subs/social" />
       <recent name="$PROJECT_DIR$/server/views/partials/subs/profile" />
       <recent name="$PROJECT_DIR$/server/views/partials/subs/feeling" />
-      <recent name="$PROJECT_DIR$/server/views/partials/subs" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.bin/www">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="Chrome" />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -431,6 +427,17 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
       <envs />
       <method />
     </configuration>
@@ -469,18 +476,6 @@
       <created>1424698981212</created>
       <option name="number" value="Default" />
       <updated>1424698981212</updated>
-    </task>
-    <task id="LOCAL-00104" summary="updated save profile functionality to save to db. Get still needs to be fixed for birthdate - not binding correctly to date field">
-      <created>1428852154589</created>
-      <option name="number" value="00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1428852154590</updated>
-    </task>
-    <task id="LOCAL-00105" summary="cleared out header and anchor class from home page">
-      <created>1428852465014</created>
-      <option name="number" value="00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1428852465014</updated>
     </task>
     <task id="LOCAL-00106" summary="added profiletabs and sub-routes for profile tabs - need to make them accordion style  for mobile">
       <created>1428894126997</created>
@@ -764,7 +759,19 @@
       <option name="project" value="LOCAL" />
       <updated>1430780919292</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="Created models for food,">
+      <created>1430787887567</created>
+      <option name="number" value="00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1430787887567</updated>
+    </task>
+    <task id="LOCAL-00154" summary="images updated">
+      <created>1430787969699</created>
+      <option name="number" value="00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1430787969699</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -788,29 +795,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="808" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="817" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827586" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325419" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282123" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34357542" sideWeight="0.49964765" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3390558" sideWeight="0.49964765" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32188842" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32596686" sideWeight="0.5003524" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282123" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827586" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32402235" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24876674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32596686" sideWeight="0.5003524" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282123" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2732475" sideWeight="0.49964765" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3337931" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325419" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27448276" sideWeight="0.49964765" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -828,7 +835,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Define some schemas" />
     <MESSAGE value="Define feeling views and sub-routes for each feeling&#10;-- added dummy pages for feeling sub-routes" />
     <MESSAGE value="Updates to  views and routes - reorganising sub-routes" />
     <MESSAGE value="Cleanup display  and views" />
@@ -851,13 +857,46 @@
     <MESSAGE value="added functionality to get feelingEntry on page load" />
     <MESSAGE value="fixed functionality on down arrow on &quot;home top done&quot; template" />
     <MESSAGE value="Created routes and test for getting all feeling entries for a user" />
-    <MESSAGE value="Created models for food," />
     <MESSAGE value="Created models for food,&#10;updated gruntfile&#10;added test fixtures to store test data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created models for food,&#10;updated gruntfile&#10;added test fixtures to store test data" />
+    <MESSAGE value="Created models for food," />
+    <MESSAGE value="images updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="images updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/app/controllers/profile.js</url>
+          <line>29</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/app/controllers/profile.js</url>
+          <line>24</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/app/controllers/profile.js</url>
+          <line>25</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/app/controllers/diary.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/app/services/diary.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/app/models/diaryEntry.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -866,385 +905,262 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/config/env/development.js">
+    <entry file="file://$PROJECT_DIR$/client/public/app/visHome/controllers/loginController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07239819" vertical-offset="0" max-vertical-offset="442">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2413">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/subs/home.jade">
+    <entry file="file://$PROJECT_DIR$/client/public/app/visHome/services/adminService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="224">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1862">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/public/app/subsApp/controllers/homeController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="1328">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/public/app/subsApp/controllers/homeTopDefController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="560">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/subs/homeTopDef.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="480">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/subs/homeTopDone.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="336">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/models/meal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/models/food.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/routes/apiRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1104">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/routes/foodEntryApi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1030" max-vertical-offset="1792">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/test/profile-spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49879518" vertical-offset="1633" max-vertical-offset="2048">
-          <caret line="115" column="29" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/routes/feelingApi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1648">
-          <caret line="11" column="0" selection-start-line="8" selection-start-column="2" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/test/fixtures/testFixtures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25339368" vertical-offset="0" max-vertical-offset="442">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/models/exercise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5656109" vertical-offset="6" max-vertical-offset="448">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/models/feelingEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43438914" vertical-offset="0" max-vertical-offset="442">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/models/foodEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36199096" vertical-offset="0" max-vertical-offset="442">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6380091" vertical-offset="646" max-vertical-offset="1088">
-          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/test/food-spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1936" max-vertical-offset="2432">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/test/food-entry-spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1280" max-vertical-offset="3296">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1273">
+          <caret line="43" column="4" selection-start-line="2" selection-start-column="2" selection-end-line="43" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/test/feeling-spec.js">
+    <entry file="file://$PROJECT_DIR$/client/public/app/subsApp/controllers/profileController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2150" max-vertical-offset="2592">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1026">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/test/user-spec.js">
+    <entry file="file://$PROJECT_DIR$/server/app/controllers/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78280544" vertical-offset="2214" max-vertical-offset="2656">
-          <caret line="160" column="3" selection-start-line="160" selection-start-column="3" selection-end-line="160" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/routes/uiRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/test/fixtures/teardown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="518" max-vertical-offset="1168">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtests.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="112">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rundev.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="112">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="4902">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/server/config/passport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4265" max-vertical-offset="4976">
-          <caret line="297" column="7" selection-start-line="297" selection-start-column="7" selection-end-line="297" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1121" max-vertical-offset="5301">
+          <caret line="78" column="67" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/config/env/test.js">
+    <entry file="file://$PROJECT_DIR$/client/public/app/visHome/controllers/signupController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="931">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/config/env/all.js">
+    <entry file="file://$PROJECT_DIR$/server/app/controllers/profile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/routes/adminRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6096">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1094" max-vertical-offset="1536">
-          <caret line="88" column="89" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1840">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/vis/signupForm.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.30455637" vertical-offset="127" max-vertical-offset="704">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/vis/signup.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/subs/profile/profileForm.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="688">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/vis/aboutBrief.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="779">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/public/app/visHome/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="1056">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.5541667" vertical-offset="0" max-vertical-offset="1254">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/vis/login.jade">
+    <entry file="file://$PROJECT_DIR$/client/public/app/subsApp/controllers/diabetesController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="160">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1520">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/public/js/nav.js">
+    <entry file="file://$PROJECT_DIR$/client/public/app/subsApp/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1444">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="356" max-vertical-offset="836">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/env/development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/env/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1375" vertical-offset="1026" max-vertical-offset="8284">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/layoutVis.jade">
+    <entry file="file://$PROJECT_DIR$/server/config/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.52" vertical-offset="96" max-vertical-offset="688">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/public/stylesheets/nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2688">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/subs/navSubs2.jade">
+    <entry file="file://$PROJECT_DIR$/server/config/env/production.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42206234" vertical-offset="0" max-vertical-offset="768">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/layoutSubs.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38369304" vertical-offset="112" max-vertical-offset="896">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/subs/navSubs.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46043167" vertical-offset="0" max-vertical-offset="544">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/vis/navVis2.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9232614" vertical-offset="239" max-vertical-offset="720">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/vis/navVis.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/index_.jade">
+    <entry file="file://$PROJECT_DIR$/client/public/app/subsApp/services/profileService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2" vertical-offset="0" max-vertical-offset="1120">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="760">
+          <caret line="28" column="15" selection-start-line="21" selection-start-column="13" selection-end-line="28" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/partials/vis/home.jade">
+    <entry file="file://$PROJECT_DIR$/client/public/app/subsApp/services/diabetesService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="160">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="893">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/controllers/diary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/services/diary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/models/diaryEntry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="722">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/public/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21719457" vertical-offset="1232" max-vertical-offset="10592">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        <state vertical-scroll-proportion="-15.37037" vertical-offset="13949" max-vertical-offset="14497">
+          <caret line="756" column="22" selection-start-line="756" selection-start-column="22" selection-end-line="756" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/routes/adminRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1273">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/app/subsApp/controllers/diabetesDiaryController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/routes/uiRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1064">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/app/subsApp/controllers/navController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/app/common/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/app/common/services/utilitySvcs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3876">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/images/afternoon3_Fotor.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/images/afternoon2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/images/morning2_Fotor.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/images/insulinBG.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3686636" vertical-offset="1151" max-vertical-offset="2147">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
       </provider>

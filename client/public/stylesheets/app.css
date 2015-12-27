@@ -22,7 +22,7 @@ body {
 
 .navbar {
     margin-bottom: 0px;
-    padding: 10px 5px;
+    /*padding: 10px 5px;*/
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
@@ -73,6 +73,11 @@ body {
     border: 2px solid darkcyan;
     box-shadow: rgba(0,0,0,0.5) 10px 10px 60px;
 }
+#nav-expander {
+    margin-top: -10px;
+}
+
+
 .fill-screen{
     background-size: cover;
     padding: 10px 0px;
@@ -358,6 +363,7 @@ article p{
 #signupForm > div >input{
     width: 250px;
 }
+
 .input-wide{
     width: 250px;
 }
@@ -654,4 +660,99 @@ article p{
 .feelingTired:hover {
     color: #D74D06;
     background: #fff;
+}
+
+@media (min-width: 768px) {
+    #insulinForm {
+        width: 300px;
+        margin-left: 200px;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #insulinForm {
+        width: 300px;
+        margin-left: 20px;
+        padding-left: 1px;
+    }
+}
+#insulinForm {
+    background-color: rgba(0, 0, 0, 0.25)
+}
+
+#insulinForm > p >input,#insulinForm > p >span >input{
+    width: 50px;
+}
+
+#insulinForm > p  >span {
+    float: right;
+}
+#insulinForm >> a {
+    cursor: pointer;
+}
+.insulinLabel  {
+    float: left;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #4E1F1F;
+    /*padding-left: 5px;*/
+}
+.insulinValues{
+    color:#0E6512;
+    font-size: 16px;
+}
+.insulinConstantsInput {
+    padding:6px;
+    width:50px;
+    height:20px;
+    display:inline-block;
+    background-color: rgba(255, 229, 199, 0.48);
+    font-family: sans-serif;
+}
+.insulinInput {
+    padding:6px;
+    width:80px;
+    height:20px;
+    display:inline-block;
+    background-color: rgba(255, 229, 199, 0.48);
+    font-family: sans-serif;
+}
+.insulinRowHead {
+    background-color: rgba(255,235,205,.5);
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: double;
+}
+.insulinRow {
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: double;
+    background-color: rgba(245, 222, 179, 0.52);
+}
+.insulinIcons {
+    padding-left: 5px;
+}
+.insulinCalculator {
+    font-size: 18px;
+    color: #0B3356;
+    font-weight: 900;
+    margin-top: 0px;
+}
+.mainRow {
+    margin-right: -35px;
+    margin-left: -50px;
+}
+
+.diaryRowTop {
+    background-color: #eee;
+    height: 25px;
+}
+.diaryAside{
+    /*background-color: rgba(8, 53, 73, 0.43);*/
+    text-align: center;
+    padding: 0px 10px;
+    margin-top: -10px;
 }

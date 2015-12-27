@@ -71,12 +71,12 @@ module.exports = function(passport,app) {
                     // if there is no user with that email, create the user
                     console.log("creating new user");
                     var newUser = new User();
-                    newUser.local.email = email;
-                    newUser.local.password = newUser.generateHash(password);
-                    newUser.local.firstName = req.body.firstName;
-                    newUser.local.lastName = req.body.lastName;
-                    newUser.profile = {};
-
+                    newUser.email = email;
+                    newUser.password = newUser.generateHash(password);
+                    newUser.firstName = req.body.firstName;
+                    newUser.lastName = req.body.lastName;
+                    newUser.insulinProfile = req.body.insulinProfile;
+                    console.log('******  New User ******',newUser);
                     // save the user
                     newUser.save(function(err) {
                         if (err)
@@ -106,7 +106,7 @@ module.exports = function(passport,app) {
     },function(req,email,password,done){
             var usr = req.body;
             console.log('inside passport local login: ',usr);
-            User.findOne({'local.email':usr.email},function(err,user){
+            User.findOne({'email':usr.email},function(err,user){
                 if(err)
                     return done(err);
                 if(!user){
@@ -117,7 +117,6 @@ module.exports = function(passport,app) {
                 if(!user.validPassword(usr.password))
 
                     return done(null,false,{message:'Oops! Invalid password'});
-
                 return done(null,user);
             })
         }

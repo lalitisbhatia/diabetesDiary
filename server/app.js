@@ -25,6 +25,7 @@ app.set('view engine', 'jade');
 
 // ======= database
 var configDB = require('./config/config.js');
+//console.log(configDB);
 mongoose.connect(configDB.db); // connect to our database
 
 // ======= Passport Authentication
@@ -66,10 +67,7 @@ app.use(function(req, res, next) {
 //routes
 require('./app/routes/adminRoutes.js')(app,passport);
 require('./app/routes/uiRoutes.js')(app);
-require('./app/routes/apiRoutes.js')(app,passport);
-require('./app/routes/foodApi.js')(app);
-require('./app/routes/feelingApi.js')(app);
-require('./app/routes/foodEntryApi.js')(app,passport);
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');

@@ -11,9 +11,6 @@ subsApp.controller('profileController',['$scope','$log','profileService',functio
         $scope.updated = false;
     };
 
-    $scope.genders=['male','female'];
-    $scope.feet = ['4','5','6'];
-    $scope.inches = ['0','1','2','3','4','5','6','7','8','9','10','11'];
 
     $scope.setForm = function (form) {
         $scope.myForm = form;

@@ -1,5 +1,10 @@
 var User = require('../../app/models/user.js');
 
+var google = require('../../../node_modules/googleapis/lib/googleapis.js');
+
+
+var request = require('request');
+
 module.exports = function(app,passport){
 
   //========================================
@@ -22,6 +27,7 @@ module.exports = function(app,passport){
 
   //make profile updates
   app.post('/profile',isLoggedIn,function(req,res){
+    console.log("******** indside profile post");
     var profileObj = req.body;
     //console.log(profileObj);
     var userId = req.session.passport.user;
@@ -48,6 +54,8 @@ module.exports = function(app,passport){
   });
 
 };
+
+
 //route middleware to check if user is logged in
 function isLoggedIn(req,res,next){
   console.log('checking auth');

@@ -5,11 +5,16 @@ visHome.controller('signupController',['$scope','$log','adminService',function($
         $scope.showSignup = false;
 
         $scope.user = {
-            firstName :"",
-            lastName : "",
-            email : "",
-            password : "",
-            confPassword : ""
+          firstName :"",
+          lastName : "",
+          email : "",
+          password : "",
+          confPassword : "",
+          insulinProfile : {
+            targetRate: "",
+            correctiveFactor: "",
+            carbFactor: ""
+          }
         };
         $scope.message = "";
         $scope.showValErrors = false;

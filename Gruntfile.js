@@ -5,16 +5,11 @@ module.exports = function(grunt){
     require('jit-grunt')(grunt, {
         express: 'grunt-express-server',
         useminPrepare: 'grunt-usemin',
-        //ngtemplates: 'grunt-angular-templates',
-        //cdnify: 'grunt-google-cdn',
         //protractor: 'grunt-protractor-runner',
-        //injector: 'grunt-asset-injector',
         buildcontrol: 'grunt-build-control',
-        //ngconstant: 'grunt-ng-constant',
         rsync: 'grunt-rsync',
         gitinfo: 'grunt-gitinfo',
         replace: 'grunt-text-replace'
-        //maven: 'grunt-maven-tasks'
     });
 
     // Time how long tasks take. Can help when optimizing build times
@@ -134,12 +129,18 @@ module.exports = function(grunt){
         },
 
         mochaTest:{
-            tearDown:{
-              src:['server/test/fixtures/teardown.js']
-            },
-            test:{
-              src: ['server/test/*.js']
-            }
+          tearDown:{
+            src:['server/test/fixtures/teardown.js']
+          },
+          test:{
+            src: ['server/test/*.js']
+          },
+          createFoods:{
+            src: ['server/test/createFoods.js']
+          },
+          callSearch:{
+            src: ['server/test/search-spec.js']
+          }
 
         },
 

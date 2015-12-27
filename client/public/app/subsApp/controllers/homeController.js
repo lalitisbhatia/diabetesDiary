@@ -1,7 +1,5 @@
 subsApp.controller('homeController',['$scope','$log','profileService','utilityService','feelingService',function($scope,$log,profileService,utilityService,feelingService) {
 
-
-
   $scope.init = function () {
     console.log('home controller initialised');
     $scope.user = {};
@@ -10,7 +8,6 @@ subsApp.controller('homeController',['$scope','$log','profileService','utilitySe
     $scope.showValErrors = false;
     $scope.showTabs = true;
     $scope.greeting = utilityService.getGreeting();
-    $scope.feelingEntry = {};
 
     $scope.images = utilityService.images;
     console.log($scope.images);
@@ -19,13 +16,9 @@ subsApp.controller('homeController',['$scope','$log','profileService','utilitySe
   };
 
   $scope.$on('gotUser',function(event,data){
-    $scope.getFeeling();
+    console.log('*****  $scope.profile *******',$scope.user);
   });
 
-  $scope.$on('feelingUpdated',function(event,data){
-    console.log('*****  Feeling Updated ****');
-    $scope.feelingEntry = data;
-  });
 
   $scope.getProfile = function(){
     profileService.getProfile().then(function(data){
@@ -37,7 +30,6 @@ subsApp.controller('homeController',['$scope','$log','profileService','utilitySe
       });
 
       if($scope.profile){
-        console.log($scope.profile);
 
         //update date of birth field
         if($scope.profile.dateOfBirth){
@@ -51,14 +43,6 @@ subsApp.controller('homeController',['$scope','$log','profileService','utilitySe
     })
   };
 
-  $scope.getFeeling = function(){
-    console.log($scope.user);
-    feelingService.getFeeling($scope.user._id,utilityService.dateOnly(new Date),$scope.greeting).then(function(data){
-        $scope.feelingEntry = data;
-        console.log("***  FEELING ENTRY ***",data);
-      }
-    )
-  };
 
   $scope.getRandomImage = function(images,greeting){
     var rand = Math.floor(Math.random()*(6));

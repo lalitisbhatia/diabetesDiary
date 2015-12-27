@@ -34,7 +34,7 @@ visHome.controller('visHomeController',function($scope,$log,adminService){
                 window.location = data.redirect
             }
         })
-    }
+    };
 
     $scope.forgot = function(){
         console.log('calling login with : ', $scope.user);

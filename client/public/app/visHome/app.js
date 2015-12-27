@@ -9,7 +9,7 @@ visHome.config(['$stateProvider','$routeProvider',function($stateProvider,$route
         // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
             url: '/',
-            templateUrl: '../partials/vis/home'
+            templateUrl: '../partials/vis/login.jade'
         })
 
         // nested list with custom controller
@@ -52,10 +52,10 @@ visHome.directive('passwordMatch',[function(){
             scope.$watch(checker,function(n){
                 //set the form control to valid if both
                 //passwords are the same, else invalid
-                console.log('inside directive')
+                console.log('inside directive');
                 control.$setValidity("unique", n);
             })
         }
 
     }
-}])
+}]);

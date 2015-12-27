@@ -9,31 +9,13 @@ subsApp.config(['$stateProvider','$routeProvider',function($stateProvider,$route
         // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
             url: '/',
-            templateUrl: '../partials/subs/home.jade'
-        })
-
-        // Feeling Great route and sub routes
-        .state('feelingGreat', {
-          url: 'feelingGreat/',
-          templateUrl: '../partials/subs/feeling/feelingGreat.jade'
-        })
-        .state('feelingGreat.food', {
-          url: 'food/:date',
-          templateUrl: '../partials/subs/diary/foodEntry.jade'
-        })
-        .state('feelingGreat.activity', {
-          url: 'activity/:date',
-          templateUrl: '../partials/subs/diary/activityEntry.jade'
-        })
-        .state('feelingGreat.other', {
-          url: 'other/:date',
-          templateUrl: '../partials/subs/diary/addMore.jade'
+            templateUrl: '../partials/subs/diabetes/insulinCalc.jade'
         })
 
         // Feeling Full route and sub routes
-        .state('home.full', {
-          url: 'feelingFull/',
-          templateUrl: '../partials/subs/feeling/feelingFull.jade'
+        .state('diary', {
+          url: '/diary',
+          templateUrl: '../partials/subs/diabetes/insulinDiary.jade'
         })
         .state('home.full.food', {
           url: 'food/:date',
@@ -48,23 +30,7 @@ subsApp.config(['$stateProvider','$routeProvider',function($stateProvider,$route
           templateUrl: '../partials/subs/diary/addMore.jade'
         })
 
-        // Feeling Tired route and sub routes
-        .state('home.tired', {
-          url: 'feelingTired/',
-          templateUrl: '../partials/subs/feeling/feelingTired.jade'
-        })
-        .state('home.tired.food', {
-          url: 'food/:date',
-          templateUrl: '../partials/subs/diary/foodEntry.jade'
-        })
-        .state('home.tired.activity', {
-          url: 'activity/:date',
-          templateUrl: '../partials/subs/diary/activityEntry.jade'
-        })
-        .state('home.tired.other', {
-          url: 'other/:date',
-          templateUrl: '../partials/subs/diary/addMore.jade'
-        })
+
         // profile views
         .state('profile', {
             url: '/profile',
@@ -84,14 +50,15 @@ subsApp.config(['$stateProvider','$routeProvider',function($stateProvider,$route
         })
 
 
+        .state('diabetes', {
+          url: '/diabetes',
+          templateUrl: '../partials/subs/diabetes/insulinCalc.jade'
+        })
         .state('social', {
             url: '/social',
             templateUrl: '../partials/subs/social/social.jade'
         })
-        .state('diary', {
-            url: '/diary',
-            templateUrl: '../partials/subs/diary/diary.jade'
-        })
+
         .state('reset', {
             url: '/reset/:token',
             templateUrl: '../partials/reset.jade'
