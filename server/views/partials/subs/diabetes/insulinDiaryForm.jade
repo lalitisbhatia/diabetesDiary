@@ -1,0 +1,19 @@
+aside.diaryAside
+  //h4.insulinCalculator Insulin Diary
+  .row.diaryRowTop
+    .col-xs-4
+      span(style="float:left")
+        a(ui-sref="home") cancel
+    .col-xs-4
+      span Add
+    .col-xs-4
+      span(style="float:right")
+        a save
+  //.row
+  //  .col-xs-12
+  //    #insulinDiary.range-list-div
+        //span  {{diaryEntry}}
+        //button(ng-click="saveEntry()")
+  .row
+    .col-xs-6
+      span(style="float:left") {{diaryEntry.entryDate}}

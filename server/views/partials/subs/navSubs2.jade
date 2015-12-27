@@ -1,0 +1,29 @@
+nav
+            ul.list-unstyled.main-menu
+                li.text-left
+                    a#nav-close(href='#')
+                        b X
+                li
+                  a(class="navLink" data-toggle="collapse" data-target=".navbar-collapse" id="home" ui-sref="home") Home
+                    span.icon
+                li
+                  a(class="navLink" data-toggle="collapse" data-target=".navbar-collapse" id="diary" ui-sref="diary" ) My Diary
+                    span.icon
+                li
+                  a(class="navLink" data-toggle="collapse" data-target=".navbar-collapse" id="settings" ui-sref="settings" ) Settings
+                    span.icon
+
+                li
+                    a(data-toggle="collapse" data-target=".navbar-collapse"  href='/logout') Logout
+
+        .navbar.navbar-inverse.navbar-fixed-top
+            // Include your brand here
+            .navbar-header
+                a#nav-expander.nav-expander.fixed
+                    |   
+                    i.fa.fa-bars.fa-lg.white
+            .navbar-brand() Diabetes Control
+
+
+
+             

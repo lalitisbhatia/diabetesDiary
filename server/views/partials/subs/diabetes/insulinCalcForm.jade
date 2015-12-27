@@ -1,0 +1,73 @@
+aside
+    h4.insulinCalculator Insulin Calculator
+    .row.mainRow
+      .col-sm-12
+        #insulinForm.range-list-div
+          .row.insulinRowHead
+            .col-xs-12
+              h5.insulinLabel CONSTANTS
+          .row.insulinRow
+            .col-xs-7
+              p.insulinLabel Target Rate
+            .col-xs-5
+              span.insulinValues(ng-hide='editorEnabled1')
+                | {{insulinProfile.targetRate}}
+                a( ng-click='editorEnabled1=!editorEnabled1' )
+                  .insulinIcons.fa.fa-lg.fa-pencil
+              span(ng-show='editorEnabled1')
+                input.insulinConstantsInput.form-control(ng-model='insulinProfile.targetRate' style='display:inline-block;' autofocus="autofocus")
+                a( ng-click='editorEnabled1=!editorEnabled1') &nbsp;
+                  .insulinIcons.fa.fa-lg.fa-check-circle-o(ng-click="saveInsulinProfile()")
+          .row.insulinRow
+            .col-xs-7
+              p.insulinLabel Corrective Factor
+            .col-xs-5
+              span.insulinValues(ng-hide='editorEnabled2')
+                | {{insulinProfile.correctiveFactor}}
+                a( ng-click='editorEnabled2=!editorEnabled2')
+                  .insulinIcons.fa.fa-lg.fa-pencil
+              span(ng-show='editorEnabled2')
+                input.insulinConstantsInput.form-control(ng-model='insulinProfile.correctiveFactor' style='display:inline-block;' autofocus="autofocus")
+                a( ng-click='editorEnabled2=!editorEnabled2')
+                  .insulinIcons.fa.fa-lg.fa-check-circle-o(ng-click="saveInsulinProfile()")
+          .row.insulinRow
+            .col-xs-7
+              p.insulinLabel Carb Factor
+            .col-xs-5
+              span.insulinValues(ng-hide='editorEnabled3')
+                | {{insulinProfile.carbFactor}}
+                a( ng-click='editorEnabled3=!editorEnabled3') &nbsp;
+                  .insulinIcons.fa.fa-lg.fa-pencil
+              span(ng-show='editorEnabled3')
+                input.insulinConstantsInput.form-control( ng-model='insulinProfile.carbFactor' style='display:inline-block;' autofocus="autofocus")
+                a( ng-click='editorEnabled3=!editorEnabled3') &nbsp;
+                  .insulinIcons.fa.fa-lg.fa-check-circle-o(ng-click="saveInsulinProfile()")
+
+          .row
+            p
+          .row.insulinRowHead
+            .col-xs-12
+              h5.insulinLabel INPUT
+          .row.insulinRow
+            .col-xs-5
+              p.insulinLabel Glucose :
+            .col-xs-7
+              input.form-control.insulinInput(type="text" ng-model="glucose" ng-change="calculateUnits()")
+              span.insulinValues(ng-bind="insulinGlucose" style="padding:6px 6px")
+          .row.insulinRow
+            .col-xs-5
+              p.insulinLabel Carbs :
+            .col-xs-7
+              input.form-control.insulinInput(type="text" ng-model="carbs" ng-change="calculateUnits()"  )
+              //button(type="input") add food
+              span.insulinValues(ng-bind="insulinCarb" style="padding:6px 6px")
+
+          br
+          .row.insulinRowHead
+            .col-xs-7
+              h5.insulinLabel RESULT
+            .col-xs-5
+              span.insulinValues(ng-bind="insulinCorrected")
+              | &nbsp;units
+    .row
+      a(ui-sref="diary" ng-click="saveToDiary()").button.formgroup.btn.btn-primary.login-button Save
